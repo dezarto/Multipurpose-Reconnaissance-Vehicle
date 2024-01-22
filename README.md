@@ -1,13 +1,11 @@
 # Multipurpose-Reconnaissance-Vehicle
 Please review the attached report titled `Multipurpose Reconnaissance Vehicle` for detailed information.
 
-# Part I: Sensors
+### Part I: Sensors
 In Part I, the focus is on coding the sensors and establishing communication with the central control center.
 
-# Part II: Motors
+### Part II: Motors
 Part II focuses on controlling the movement capabilities of the vehicle from the central control center.
-
-# Project Title: Multipurpose Reconnaissance Vehicle
 
 ## Project Description
 This project encompasses a Multipurpose Reconnaissance Vehicle designed for versatile exploration on the surface of the planet. The vehicle is equipped with various sensors and communication antennas to monitor diverse features and atmospheric conditions on the planet. Additionally, it includes a set of sensors to assess environmental conditions and respond to specific tasks.
