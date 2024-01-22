@@ -1,6 +1,12 @@
 # Multipurpose-Reconnaissance-Vehicle
 Please review the attached report titled `Multipurpose Reconnaissance Vehicle` for detailed information.
 
+# Part I: Sensors
+In Part I, the focus is on coding the sensors and establishing communication with the central control center.
+
+# Part II: Motors
+Part II focuses on controlling the movement capabilities of the vehicle from the central control center.
+
 # Project Title: Multipurpose Reconnaissance Vehicle
 
 ## Project Description
