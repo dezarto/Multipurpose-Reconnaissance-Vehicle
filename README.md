@@ -1,3 +1,87 @@
+# TÜRKÇE
+
+# Multipurpose-Reconnaissance-Vehicle
+Detaylı bilgi için ekteki `Multipurpose Reconnaissance Vehicle` raporunu inceleyiniz.
+
+### Bölüm I: Sensörler
+Bölüm I'de odak, sensörleri kodlamak ve merkezi kontrol merkezi ile iletişim kurmaktadır.
+
+### Bölüm II: Motorlar
+Bölüm II, aracın hareket yeteneklerini merkezi kontrol merkezinden kontrol etmeye odaklanmaktadır.
+
+## Proje Açıklaması
+Bu proje, gezegenin yüzeyinde çok amaçlı keşif için tasarlanmış bir Çok Amaçlı Keşif Aracını içermektedir. Araç, gezegenin çeşitli özelliklerini ve atmosfer koşullarını izlemek için çeşitli sensörler ve iletişim antenleri ile donatılmıştır. Ayrıca, çevresel koşulları değerlendirmek ve belirli görevlere yanıt vermek için bir dizi sensör içermektedir.
+
+## Temel Özellikler
+1. **İletişim Antenleri:**
+   - Araç, iki iletişim anteni ile donatılmıştır.
+   - Kontrol merkezi, iki iletişim anteni ile donatılmıştır.
+   - Anten 1 ve Anten 2, araç ile kontrol merkezi arasında 1'e-1 iletişim kurar.
+   - Anten 3 ve Anten 4, diğer uzak sensörler veya keşif ekipmanları ile iletişim kurar.
+
+2. **Toprak Nem Sensörü (SOIL SENSOR):**
+   - Gezegen yüzeyinde toprak nem seviyelerini ölçer.
+   - Bitki büyüme potansiyelini analiz etmek ve yerel çevresel koşulları değerlendirmek için kullanılır.
+
+3. **Hareket Sensörü:**
+   - Araç çevresindeki hareketleri algılar.
+   - Potansiyel tehlikeleri tanır ve güvenlik önlemleri alır.
+
+4. **Sıcaklık ve Nem Sensörü (DHT11):**
+   - Gezegen atmosferinde sıcaklık ve nem seviyelerini ölçer.
+   - Atmosfer koşullarını değerlendirir ve aracın işletme parametrelerini optimize eder.
+
+5. **Gaz Algılama Sensörü (MQ-3):**
+   - Gezegen atmosferinde belirli gazları algılar.
+   - Potansiyel tehlikeli gazları tanır ve kontrol merkezine önlemler gönderir.
+
+6. **Su Seviye Sensörü (WATER SENSOR):**
+   - Gezegen yüzeyinde yağışı ölçer.
+   - Su ve yağışın varlığını değerlendirmek, sıvı suyun olası varlığını belirlemek için kullanılır.
+
+7. **Işık Algılama Sensörü (LDR):**
+   - Gezegen yüzeyinde ışık seviyelerini ölçer.
+   - Gündüz ve gece koşullarını izler ve aracın enerji yönetimini optimize eder.
+
+## Proje Hedefleri
+- Gezegen yüzeyindeki çevresel koşulları izlemek ve analiz etmek.
+- Potansiyel yağışları tespit etmek.
+- Atmosfer verilerini toplamak ve değerlendirmek.
+- Araç çevresindeki hareketleri izleyerek güvenliği sağlamak.
+- İletişimi sürekli olarak kontrol merkezi ile iletişimde tutmak için iletişim antenleri kullanmak.
+
+## Parçalar
+| Parçalar                | Miktar   |
+|-------------------------|----------|
+| Arduino Uno Board       | 4        |
+| LDR                     | 1        |
+| Yağmur Sensörü          | 1        |
+| DHT 11 Sensörü          | 1        |
+| MQ-3                    | 1        |
+| SOIL                    | 1        |
+| PIR                     | 1        |
+| 16x2 LCD                | 1        |
+| Büyük Boy Breadboard    | 3        |
+| Orta Boy Breadboard     | 1        |
+| Nrf24L01(Anten)         | 4        |
+| Nrf24L01(Adaptör)       | 4        |
+| 330 Ohm Direnç          | 6        |
+| USB KABLO               | 4        |
+| LED YEŞİL               | 2        |
+| Buzzer                  | 1        |
+| Potansiyometre          | 1        |
+| Servo Motor             | 2        |
+| DC Motor                | 1        |
+| Joystick                | 1        |
+| Düğme                   | 1        |
+| NFC                     | 1        |
+| Jumper Kablo (E-E)      | 21       |
+| Jumper Kablo (E-D)      | 47       |
+| Jumper Kablo (D-D)      | 14       |
+
+
+# ENGLISH
+
 # Multipurpose-Reconnaissance-Vehicle
 Please review the attached report titled `Multipurpose Reconnaissance Vehicle` for detailed information.
 
